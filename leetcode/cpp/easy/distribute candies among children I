@@ -1,0 +1,16 @@
+class Solution {
+public:
+    int result=0;
+    int k;
+    int distributeCandies(int n, int limit) {
+       for(int i=0;i<=min(n,limit);i++){
+          for(int j=0;j<=min(n-i,limit);j++){
+            k=n-i-j;
+            if(k<=limit)
+              result++; 
+          }
+        }
+        return result;
+    }
+    
+};
