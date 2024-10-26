@@ -1,0 +1,17 @@
+class Solution {
+public:
+    int passThePillow(int n, int time) {
+        int c,d;
+        if(n>time)
+           return time+1;
+        c=time/(n-1);
+        d=time%(n-1);
+        if(c%2==0)
+        {
+            return d+1;
+        }
+        else{
+            return n-d;
+        }  
+    }
+};
