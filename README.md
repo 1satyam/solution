@@ -9,6 +9,10 @@ This repo currently include solutions for the following topics:
 * strings
 * math
 * hashtable
+* binary search
+* bit manipulation
+* sliding window
+* stack
 
 
 ## Future goals
